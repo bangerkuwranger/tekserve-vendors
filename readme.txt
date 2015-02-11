@@ -12,9 +12,9 @@ Tags: custom post type, custom fields, testimonials, quotes
 
 Requires at least: 3.1
 
-Tested up to: 3.7.1
+Tested up to: 4.1
 
-Stable tag: 1.0
+Stable tag: 1.1
 
 License: MIT
 
@@ -40,6 +40,15 @@ Each vendor will have a page automatically generated and shown under http://site
 
 == Changelog ==
 
+= 1.1 =
+
+*standardized enqueing and syntax
+*updated comments
+*compatible with WP 4.1
+*removed hacky styles and allowed for easier font/color overrides in theme/custom css
+
 == Upgrade Notice ==
 
-= 1.0 =
+= 1.1 =
+
+Form and beside form area have been removed; if there is any content in this field, it will not be editable or displayed. Move any content stored here into another field before upgrading if you want to preserve it.
